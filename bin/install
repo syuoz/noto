@@ -22,3 +22,14 @@ $BREW install node watchman yarn
 
 # Install React Native
 npm install -g react-native-cli
+
+# Install Cocoapods
+gem install cocoapods --user-install
+
+# Install project dependencies
+pushd Noto
+npm install
+pushd ios
+pod install
+popd
+popd

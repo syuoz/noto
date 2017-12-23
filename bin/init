@@ -1,4 +1,11 @@
 #!/usr/bin/env bash
 
-yarn global add create-react-native-app
-create-react-native-app noto
+react-native Noto
+
+pushd Noto
+npm install
+pushd ios
+pod init
+pod install
+popd
+popd

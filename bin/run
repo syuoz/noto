@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
-pushd noto
-npm start
+pushd Noto
+react-native run-ios
 popd
